@@ -11,6 +11,11 @@ body {
     background: #111111;
 }
 
+.first-screen .h1 {
+    position: absolute;
+    top: 450px;
+}
+
 .first-screen {
     position: absolute;
     width: 1920px;
@@ -104,17 +109,6 @@ body {
     bottom: 51.43%;
 }
 
-.first-screen .header-logo-main {
-    position: absolute;
-    background: url(pic/omega-sign-svgrepo-com\ 1.png);
-    width: 40px;
-    height: 40px;
-    left: 48.46%;
-    right: 48.46%;
-    top: 0%;
-    bottom: 42.86%;
-}
-
 .first-screen h1 {
     position: absolute;
     width: 961px;
@@ -156,4 +150,103 @@ body {
     /* or 25px */
     /* white */
     color: #FFFFFF;
+}
+
+.sidenav {
+    height: 1038px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.sidenav-main-block {
+    position: absolute;
+    width: 315px;
+    height: 546px;
+    top: 246px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.sidenav-main-block h2 {
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.sidenav-main-block p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.main-block-2 p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 230%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.main-block-3 p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 230%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.open-block {
+    position: absolute;
+    background: url(pic/menu.png);
+    width: 50px;
+    height: 20px;
+    left: 96.14%;
+    right: 0%;
+    top: 20%;
+    bottom: 51.43%;
 }
