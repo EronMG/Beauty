@@ -114,3 +114,46 @@ body {
     top: 0%;
     bottom: 42.86%;
 }
+
+.first-screen h1 {
+    position: absolute;
+    width: 961px;
+    height: 258px;
+    left: 480px;
+    top: 360px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.first-screen .mouse {
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    left: 876px;
+    top: 908px;
+}
+
+.mouse .mouse-icon {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: url(pic/mouse.png);
+}
+
+.mouse p {
+    position: absolute;
+    left: 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* white */
+    color: #FFFFFF;
+}
