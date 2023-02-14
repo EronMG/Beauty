@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 1920px;
+    height: 4955px;
+    /* bgc */
+    background: #111111;
+}
+
+.first-screen {
+    position: absolute;
+    width: 1920px;
+    height: 1038px;
+    left: 0px;
+    top: 0px;
+    background: url(pic/bgc.png);
+}
+
+.first-screen header {
+    position: absolute;
+    width: 1296px;
+    height: 70px;
+    left: 312px;
+    top: 30px;
+}
+
+.first-screen #a {
+    width: 56px;
+    height: 23px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #CDAA7D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-bottom: 1px solid #CDAA7D;
+}
+
+.first-screen a {
+    text-decoration: none;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.first-screen .group-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    position: absolute;
+    gap: 80px;
+    left: 11.57%;
+    right: 60.8%;
+    top: 12.86%;
+    bottom: 54.29%;
+}
+
+.first-screen .group-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    left: 60.8%;
+    right: 12.58%;
+    top: 12.86%;
+    bottom: 54.29%;
+}
+
+.first-screen .header-logo-instagram {
+    position: absolute;
+    background: url(pic/instagram.png);
+    width: 26px;
+    height: 26px;
+    left: 0%;
+    right: 98.15%;
+    top: 10%;
+    bottom: 55.71%;
+}
+
+.first-screen .header-logo-button {
+    position: absolute;
+    background: url(pic/menu.png);
+    width: 50px;
+    height: 20px;
+    left: 96.14%;
+    right: 0%;
+    top: 20%;
+    bottom: 51.43%;
+}
+
+.first-screen .header-logo-main {
+    position: absolute;
+    background: url(pic/omega-sign-svgrepo-com\ 1.png);
+    width: 40px;
+    height: 40px;
+    left: 48.46%;
+    right: 48.46%;
+    top: 0%;
+    bottom: 42.86%;
+}
