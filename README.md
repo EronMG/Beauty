@@ -1,1 +1,1 @@
-# Beauty
+https://EronMG.github.io/Beauty/

@@ -199,6 +199,7 @@ body {
     top: 246px;
     display: flex;
     flex-flow: wrap;
+    padding: 85px;
 }
 
 .sidenav-main-block h2 {
@@ -249,4 +250,272 @@ body {
     right: 0%;
     top: 20%;
     bottom: 51.43%;
+}
+
+.about {
+    position: absolute;
+    width: 856px;
+    height: 385px;
+    left: 532px;
+    top: 1158px;
+}
+
+.about h2 {
+    position: absolute;
+    left: 388px;
+    color: #FFFFFF;
+    font-size: 150px;
+}
+
+.about p {
+    position: absolute;
+    width: 856px;
+    height: 261px;
+    top: 122px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.service {
+    position: absolute;
+    width: 1296px;
+    height: 832px;
+    left: 312px;
+    top: 1638px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 44px;
+}
+
+.flexbox-1-photo {
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pic/photo1.png);
+}
+
+.flexbox-2-photo {
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pic/photo2.png);
+}
+
+.flexbox-3-photo {
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pic/photo3.png);
+}
+
+.flexbox-4-photo {
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pic/photo4.png);
+}
+
+.flexbox-5-photo {
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pic/photo5.png);
+}
+
+.flexbox-6-photo {
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pic/photo6.png);
+}
+
+.flexbox-1-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    opacity: 0.5;
+    left: 20px;
+    top: -20px;
+    border: 1px solid #CDAA7D;
+}
+
+.service-flexbox-1 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.service-flexbox-2 {
+    position: relative;
+}
+
+.flexbox-2-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    opacity: 0.5;
+    left: 20px;
+    top: -20px;
+    border: 1px solid #CDAA7D;
+}
+
+.service-flexbox-2 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.service-flexbox-3 {
+    position: relative;
+}
+
+.flexbox-3-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    opacity: 0.5;
+    left: 20px;
+    top: -20px;
+    border: 1px solid #CDAA7D;
+}
+
+.service-flexbox-3 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.service-flexbox-4 {
+    position: relative;
+}
+
+.flexbox-4-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    opacity: 0.5;
+    left: 20px;
+    top: -20px;
+    border: 1px solid #CDAA7D;
+}
+
+.service-flexbox-4 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.service-flexbox-5 {
+    position: relative;
+}
+
+.flexbox-5-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    opacity: 0.5;
+    left: 20px;
+    top: -20px;
+    border: 1px solid #CDAA7D;
+}
+
+.service-flexbox-5 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.service-flexbox-6 {
+    position: relative;
+}
+
+.flexbox-6-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    opacity: 0.5;
+    left: 20px;
+    top: -20px;
+    border: 1px solid #CDAA7D;
+}
+
+.service-flexbox-6 p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.cosmetics {
+    position: absolute;
+    width: 1296px;
+    height: 144px;
+    left: 312px;
+    top: 2620px;
+    display: flex;
+    gap: 18px;
+}
+
+.cosmetics-block-1 {
+    width: 306px;
+    height: 144px;
+    background: url(pic/logo-4.png);
+    opacity: 1;
+}
+
+.cosmetics-block-2 {
+    width: 306px;
+    height: 144px;
+    background: url(pic/logo-1.png);
+    opacity: 1;
+}
+
+.cosmetics-block-3 {
+    width: 306px;
+    height: 144px;
+    background: url(pic/logo-2.png);
+    opacity: 1;
+}
+
+.cosmetics-block-4 {
+    width: 306px;
+    height: 144px;
+    background: url(pic/logo-3.png);
+    opacity: 1;
 }
